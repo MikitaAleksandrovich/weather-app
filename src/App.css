@@ -1,0 +1,15 @@
+body, html{
+  height: 100vh;
+} 
+
+#root {
+  background-image: url('./images/background.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white !important;
+}

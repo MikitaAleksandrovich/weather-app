@@ -1,0 +1,20 @@
+.nav {
+  height: 55px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #1f2225;
+  box-shadow: 0 5px 10px 10px black;
+}
+
+ul{
+  height: 55px;
+  list-style: none;
+}
+
+li {
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  font-size: 1.6rem;
+  font-weight: 600;
+} 
+
