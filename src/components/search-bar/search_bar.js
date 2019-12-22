@@ -1,5 +1,6 @@
 import React from 'react';
 import './search_bar.css';
+import styled from 'styled-components';
 
 
 class SearchBar extends React.Component{
@@ -25,6 +26,7 @@ class SearchBar extends React.Component{
                   </div>
                   
                 </div>
+                <Error>{this.props.error}</Error>
               </form>
             </div>
           </div>
@@ -35,4 +37,8 @@ class SearchBar extends React.Component{
 
 
 export default SearchBar;
+
+const Error = styled.p`
+    color: red;
+`;
 
