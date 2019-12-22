@@ -1,0 +1,27 @@
+.weather-row {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.city {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.temp {
+    font-size: 2rem;
+}
+
+.text {
+    color: rgb(41, 185, 241);
+}
+
+.desc {
+    color: rgb(155, 151, 151);
+}
